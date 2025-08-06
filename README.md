@@ -1,6 +1,8 @@
 
 # Opis projektu – zadanie rekrutacyjne (Jacek Abram)
 
+Wersja online: widoczni.jacekabram.pl
+
 Jest to prosta aplikacja webowa napisana w PHP, wykorzystująca MySQL, HTML, CSS, JavaScript, jQuery, Bootstrap i DataTables.  
 Projekt umożliwia zarządzanie klientami oraz opiekunami (relacja wiele-do-wielu), a także monitorowanie historii zmian i sprawdzanie ustawień systemowych.
 
