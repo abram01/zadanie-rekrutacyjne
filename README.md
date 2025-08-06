@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Opis projektu – zadanie rekrutacyjne (Jacek Abram)
 
 Jest to prosta aplikacja webowa napisana w PHP, wykorzystująca MySQL, HTML, CSS, JavaScript, jQuery, Bootstrap i DataTables.  
@@ -57,3 +58,35 @@ Projekt umożliwia zarządzanie klientami oraz opiekunami (relacja wiele-do-wiel
       ```
       http://localhost/nazwa_folderu/public/
       ```
+
+## Struktura katalogów
+
+```
+├── assets/                 # Zasoby statyczne (CSS, JS, obrazy)
+│   ├── css/               # Style CSS (sidebar, tabele)
+│   ├── js/                # Skrypty JavaScript (sidebar, DataTables)
+│   └── img/               # Obrazy (np. ikonki)
+
+├── config/
+│   ├── db.php             # Konfiguracja połączenia z bazą danych
+│   └── baza.sql           # Struktura i przykładowe dane bazy
+
+├── public/                # Pliki publiczne, główny dostęp przez przeglądarkę
+│   ├── index.php          # Ekran startowy aplikacji
+│   ├── klient.php         # Lista klientów
+│   ├── opiekun.php        # Lista opiekunów
+│   ├── historia.php       # Historia zmian
+│   ├── ustawienia.php     # Podgląd liczników i zmiennych
+│   ├── form_klient.php    # Formularz dodawania/edycji klienta
+│   ├── form_opiekun.php   # Formularz dodawania/edycji opiekuna
+│   └── inne formularze... # Widoki HTML/preview
+
+├── src/                   # Warstwa logiki aplikacji (PHP)
+│   ├── repozytorium_klientow.php     # Operacje na klientach
+│   ├── repozytorium_opiekunow.php    # Operacje na opiekunach
+│   ├── repozytorium_historia.php     # Historia zmian
+│   ├── repozytorium_ustawienia.php   # Dane systemowe
+│   └── grupowanie.php                # Łączenie danych z wielu tabel
+
+├── README.md              # Dokumentacja projektu
+```
