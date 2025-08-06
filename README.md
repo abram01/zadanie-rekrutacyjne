@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Opis projektu – zadanie rekrutacyjne (Jacek Abram)
 
 Jest to prosta aplikacja webowa napisana w PHP, wykorzystująca MySQL, HTML, CSS, JavaScript, jQuery, Bootstrap i DataTables.  
