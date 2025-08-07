@@ -1,4 +1,4 @@
-<div class="flex-grow-1 p-4 mb-5 ms-5 me-5">
+<div class="flex-grow-1 p-5">
     <div class="content">
         <h2 class="active form">
             <i class="bi bi-gear-wide-connected fs-1 me-2" style="padding-right: 5px; padding-left: 10px;"></i> Ustawienia – Liczniki ID

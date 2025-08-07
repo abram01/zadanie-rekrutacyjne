@@ -1,4 +1,4 @@
-<div class="flex-grow-1 p-4 mb-5 ms-5 me-5">
+<div class="flex-grow-1 p-5">
     <div class="content">
         <h2 class="active form">
             <i class="bi bi-person-heart fs-1" style="padding-right: 5px; padding-left: 10px;"></i> Opiekunowie
