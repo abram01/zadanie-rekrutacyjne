@@ -15,7 +15,6 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h2 {
-    /* FIX: była literówka: font-size: #6bac52; */
     color: #6bac52;
 }
 
@@ -109,9 +108,7 @@ form label {
     position: relative;
 }
 
-.dropdown-menu {
-    /* optionally fill later */
-}
+.dropdown-menu {}
 
 /* ====== NAVIGACJA ====== */
 .nav-link:hover {
@@ -212,7 +209,6 @@ form label {
 }
 
 /* ====== TABELA RESPONSYWNA ====== */
-/* Uwaga: to są bazowe style, override'y na dole */
 .table-responsive {
     overflow-y: auto !important;
     overflow-x: hidden;
@@ -343,26 +339,21 @@ form label {
     border: 2px solid #007bff;
 }
 
-/* ====== NAPRAWY PRZEWIJANIA (MINIMALNE ZMIANY STRUKTURY) ====== */
-/* 1) Prawa kolumna (ta z .flex-grow-1) ma być przewijalna w pionie */
+/* ====== NAPRAWY PRZEWIJANIA ====== */
 .flex-grow-1 {
     min-height: 100vh;
     overflow-y: auto;
 }
 
-/* 2) Wewnątrz .content wrapper tabeli ma mieć tylko POZIOMY scroll.
-      To odblokowuje wysokość contentu i przewijanie całej kolumny. */
 .content .table-responsive {
-    overflow-y: visible !important;
-    max-height: none !important;
+    max-height: 60vh;
+    overflow-y: auto !important;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
 
-/* (opcjonalnie) Jeżeli chcesz zachować ładny scrollbar tylko dla poziomego przewijania: */
 .content .table-responsive::-webkit-scrollbar {
-    height: 10px;          /* wysokość, nie szerokość, bo to poziomy pasek */
-    width: auto;
+    height: 10px;
 }
 .content .table-responsive::-webkit-scrollbar-thumb {
     background-color: #6bac52;
